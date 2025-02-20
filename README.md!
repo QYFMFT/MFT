@@ -1,11 +1,37 @@
-<!DOCTYPE  html>
-
+<！doctype html>
 <html lang="en">
-
 <head>
-    <meat charset="UTF-8">
-
-    <meat name="viewport"content="width=device-width,initial-scale=1.0>
-
-    <title>
+<meta charset="UTF-8">
+<元名称=“视口”内容=“宽度=设备宽度，初始比例=1.0”>
+<title>简易计算器</title>
+<link rel="stylesheet"href="styles.css">
 </head>
+<body>
+<div class="计算器">
+<输入type="text"class="计算器屏幕"id="屏幕"禁用>
+<div class="计算器按钮">
+<button class="btn"onclick="clearscreen()">C</button>
+<button class="btn"onclick="deleteLast()">DEL</button>
+<button class="btn"onclick="appendCharacter('%')">%</button>
+<button class="btn"onclick="appendCharacter('/')">/</button>
+<button class="btn"onclick="appendCharacter('7')">7</button>
+<button class="btn"onclick="appendCharacter('8')">8</button>
+<button class="btn"onclick="appendCharacter('9')">9</button>
+<button class="btn"onclick="appendCharacter('*')">*</button>
+<button class="btn"onclick="appendCharacter('4')">4</button>
+<button class="btn"onclick="appendCharacter('5')">5</button>
+<button class="btn"onclick="appendCharacter('6')">6</button>
+<button class="btn"onclick="appendCharacter('-')">-</button>
+<button class="btn"onclick="appendCharacter('1')">1</button>
+<button class="btn"onclick="appendCharacter('2')">2</button>
+<button class="btn"onclick="appendCharacter('3')">3</button>
+<button class="btn"onclick="appendCharacter('+')">+</button>
+<button class="btn"onclick="appendCharacter('0')">0</button>
+<button class="btn"onclick="appendCharacter('.')">.</button>
+<button class="btn"onclick="附加字符('×')">×</button>
+<button class="btn等号"onclick="calculate()">=</button>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
